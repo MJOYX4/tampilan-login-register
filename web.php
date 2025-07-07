@@ -19,3 +19,7 @@ Route::get('/register', function () {
 Route::get('/registerst', function () {
     return view('auth.registerst');
 });
+
+Route::get('/verif', function () {
+    return view('auth.verifemail');
+});
